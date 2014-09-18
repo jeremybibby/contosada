@@ -405,8 +405,8 @@ $config['cloud_user_avatar_container']      = 'avatar'; // for user avatar
 $config['azure_storage_container_logs']     = 'logs'; // for logs
 
 // CDN URL'S - currenlty cdn is not used. direct blob is used.
-$config['cdn_url'] = 'http://' . getenv('APPSETTING_STORAGE_ACCOUNT_NAME_WEBSITE') . '.blob.core.windows.net/';
-//$config['cdn_url'] = ''; // CDN
+//$config['cdn_url'] = 'http://' . getenv('APPSETTING_STORAGE_ACCOUNT_NAME_WEBSITE') . '.blob.core.windows.net/';
+$config['cdn_url'] = 'http://az666644.vo.msecnd.net/'; // CDN
 
 $config['cdn_img_url'] = $config['cdn_url'].$config['azure_storage_container_images'].'/'; // Images BLOB url
 $config['cdn_avatar_img_url'] = $config['cdn_url'].$config['cloud_user_avatar_container'].'/';  // avatar cdn urls
