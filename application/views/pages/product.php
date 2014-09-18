@@ -1,3 +1,6 @@
+<?php
+error_log("An error occurred on the product page.");
+?>
 <div class="container-fluid">
     <div class="row" id="main-content-container-fluid-first-row">
         <div class="col-lg-8">
